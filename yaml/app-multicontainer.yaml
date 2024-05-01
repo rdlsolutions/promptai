@@ -7,12 +7,12 @@ spec:
   - name: html
     emptyDir: {}
   containers:
-  - name: blue
+  - name: first
     image: nginx
     volumeMounts:
     - name: html
       mountPath: /usr/share/nginx/html
-  - name: green
+  - name: second
     image: ubuntu
     volumeMounts:
     - name: html

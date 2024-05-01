@@ -1,8 +1,8 @@
 # ai generate yaml
 
-| NAME | PROMPT | DESCRIPTION | EXAMPLE | 
+| NAME | PROMPT | DESCRIPTION | EXAMPLE |
 |-------------|-------------|-------------|-------------|
-| app.yaml | k kubectl-ai "create app.yaml" | defines the basic schema of a k8s application | <https://github.com/rdlsolutions/promptai/blob/main/yaml/app-job.yaml> |
+| app.yaml | k kubectl-ai "create app.yaml" | defines the basic schema of a k8s application | <https://github.com/rdlsolutions/promptai/blob/main/yaml/app.yaml> |
 | app-livenessProbe.yaml | k kubectl-ai "create app-livenessProbe.yaml" | defines a liveness probe | <https://github.com/rdlsolutions/promptai/blob/main/yaml/app-livenessProbe.yaml> |
 | app-readinessProbe.yaml | k kubectl-ai "create app-readinessProbe.yaml" | defines a readiness probe | <https://github.com/rdlsolutions/promptai/blob/main/yaml/app-readinessProbe.yaml> |
 | app-volumeMounts.yaml | k kubectl-ai "create app-volumeMounts.yaml" | defines and configures storage volumes | <https://github.com/rdlsolutions/promptai/blob/main/yaml/app-volumeMounts.yaml> |
